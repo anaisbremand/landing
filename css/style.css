@@ -1,0 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  height: 280px;
+  text-align: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg");
+  background-size:cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+a {
+  background-color: white;
+  border-radius: 5%;
+  padding: 5px 5px;
+  border: purple 1px solid;
+  align-self: center;
+}
+
+.cards {
+  display: flex;
+  /* justify-content: space-around; */
+  /* margin-bottom: 30px; */
+  flex-wrap: nowrap;
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  text-align: center;
+  border: 1px solid purple;
+}
+
+p {
+  font-size: 13px;
+}
